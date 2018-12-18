@@ -41,9 +41,9 @@ class App extends React.Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">ReactND - Coding Practice</h1>
         </header>
-		<ShopingList  addItem = {this.addItem} inputValue = {this.state.value} statusChange = {this.handleChange} btnDisable = {this.inputIsEmpty()}/>
-		<DeleteBtn  deleteLstItem = {this.deleteLastItem} dsbl = {this.noItemsFound()}/>
-		<Items state = {this.state}/>
+		    <ShopingList  addItem = {this.addItem} inputValue = {this.state.value} statusChange = {this.handleChange} btnDisable = {this.inputIsEmpty()}/>
+		    <DeleteBtn  deleteLstItem = {this.deleteLastItem} dsbl = {this.noItemsFound()}/>
+		    <Items state = {this.state}/>
       </div>
     );
   }
